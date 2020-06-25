@@ -1,0 +1,39 @@
+Package: genomeVerse
+Title: Umbrella Package for genetic data processing and analysis
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Axel",
+           family = "Martin",
+           role = c("aut", "cre"),
+           email = "axel.steph.martin@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+      person(given = "Arshi",
+             family = "Arora",
+             role = "aut"),
+      person(given = "Karissa",
+             family = "Whiting",
+             role = "aut",
+             comment = c(ORCID = "0000-0002-4683-1868")),   
+      person(given = "Margie",
+             family = "Hannum",
+             role = "aut",
+             comment = c(ORCID = "0000-0002-2953-0449")))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: gnomeR: Prepare raw IMPACT and TCGA mutation data for analysis. Annotate OncoKB, summarize maf files, visualize results and more.      
+  OncoCast: is an ensemble learner relying on cross-validation for high dimensional survival data. The algorithm can handle left truncated (delayed entry) data for all available methods. Multiple regression methods can be used including LASSO, elastic-net or generalized boosted regression.
+    Originally developed to stratify cancer patients based on their genomic profile. Through cross-validation we generate an average predictive risk score that acts as a surrogate for the aggregated effects of the profile of each patients. We include an interactive R based application that enables the user to explore the results in various ways. More details can be found in the vignette included in the package.
+  panelmap: is a visual aid to represent grouped data and its corresponding variables in the form of a panel.
+    Each row of a panelmap is called a panelet. panelmap can also output association tests to identify trends in the dataset.
+  survClust: is an outcome weighted clustering algorithm used to classify multi-omic samples on their available time to event information. 
+License: MIT
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/AxelitoMartin/genomeVerse
+Depends: R (>= 3.6)
+Remotes: 
+    github::AxelitoMartin/gnomeR,
+    github::AxelitoMartin/OncoCast,
+    github::arorarshi/panelmap,
+    github::arorarshi/survClust
+Language: en-US 
+RoxygenNote: 7.1.0
