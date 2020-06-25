@@ -13,6 +13,6 @@ The `library(genomeVerse)` loads the following packages:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("AxelitoMartin/gnomeVerse")
+devtools::install_github("AxelitoMartin/genomeVerse")
 ```
 
