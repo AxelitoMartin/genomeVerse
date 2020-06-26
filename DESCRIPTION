@@ -25,6 +25,7 @@ Description: gnomeR: Prepare raw IMPACT and TCGA mutation data for analysis. Ann
   panelmap: is a visual aid to represent grouped data and its corresponding variables in the form of a panel.
     Each row of a panelmap is called a panelet. panelmap can also output association tests to identify trends in the dataset.
   survClust: is an outcome weighted clustering algorithm used to classify multi-omic samples on their available time to event information. 
+  iClusterPlus: developed for integrative clustering analysis of multi-type genomic data.
 License: MIT
 Encoding: UTF-8
 LazyData: true
@@ -33,11 +34,14 @@ Depends: R (>= 3.6),
   gnomeR,
   OncoCast,
   panelmap,
-  survClust
+  survClust,
+  iClusterPlus
 Remotes: 
     github::AxelitoMartin/gnomeR,
     github::AxelitoMartin/OncoCast,
     github::arorarshi/panelmap,
     github::arorarshi/survClust
+biocViews: 
+    iClusterPlus
 Language: en-US 
 RoxygenNote: 7.1.0
