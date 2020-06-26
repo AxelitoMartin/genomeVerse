@@ -29,8 +29,7 @@ License: MIT
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/AxelitoMartin/genomeVerse
-Depends: R (>= 3.6)
-Imports:
+Depends: R (>= 3.6),
   gnomeR,
   OncoCast,
   panelmap,
